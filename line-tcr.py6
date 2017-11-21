@@ -50,76 +50,66 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""       Self Bots Command:『By.Nunu』
-  [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅]
-🔯[Id]􀜁􀇔􏿿
-🔯[Mid]
-🔯[Me] 
-🔯[TL 「Text」
-🔯[MyName]
-🔯[I Gift]
-🔯[Mid 「mid」
-🔯[Group id]
-🔯[Group cancel]
-🔯[album 「id」]
-🔯[Hapus album 「id」
-🔯[Contact on] 
-🔯[Contact off] 
-🔯[Auto join on] 
-🔯[Auto join off] 
-🔯[Group cancel]
-🔯[Auto leave on] 
-🔯[Auto leave off]
-🔯[Auto add on/off] 
-🔯[Jam on]]
-🔯[Jam off]
-🔯[Jam say]
-🔯[Up]
-🔯[Ban:on] 
-🔯[Unban:on]
-🔯[Banlist]
-🔯[Com on]
-🔯[Com set]
-🔯[Mcheck] 
-🔯[Message Confirmation] 
-🔯[Mybio: 「Isi Bio」]  
-🔯[Allbio: 「Isi Bio bot」] 
-  
-  [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
-
-🎲 [Link on]
-🎲 [Link off] 
-🎲 [Invite「mid」]
-🎲􀜁[Kmid: Kick by mid] 
-🎲 [Ginfo] 
-🎲 [Cancel] 
-🎲 [Backup]
-🎲 [Gn 「Nama grup」 
-🎲 [Gurl]
-🎲􀜁 [gurl「kelompok ID]
-🎲 [Nk「nama」] 
-🎲 [Bye ]
-🎲 [Ban:] 
-🎲 [Unban:]
-🎲 [Protect on] 
-🎲 [Qr on/off] 
-🎲 [Invite on] 
-🎲 [Cancel on] 
-🎲 [Copy @] 
-🎲 [Kembali]
-🎲 [Ccopy @]
-
-􀜁􀇔􏿿 COMMAND Protect 􀜁􀇔􏿿
-
-🌀 Bot all
-🌀 Bot Key
-🌀􀜁Bot1-6 in
-🌀 Bot1-6 bye
-🌀 Respons
-🌀 Bye all        
-  
-      〖ŋีಖଏדЮ✫নმ௮₷ণજัゆ۩〗
-          
+helpMessage ="""         ♛итв ѕєℓfвσт♛
+♛¢яєαтσя тєαм иιgнтмαяє♛
+☠¢σммαи∂ итв ѕєℓfвσт☠
+☞ Id
+☞ Me
+☞ Mid
+☞ I gift
+☞ Tl [ Text ]
+☞ Mid [ Mid ]
+☞ Jam on/off
+☞ Jam say
+☞ Up
+☞ Album [ ID ]
+☞ Allbio
+☞ Mybio
+☞ Com on/off
+☞ Set
+☞ Mcheck
+☞ Message Confirmation
+☞ My Name
+☠¢σммαи∂ fσя кι¢к☠
+☞ Nk
+☞ Kick
+☠¢σммαи∂ fσя вℓα¢к☠
+☞ Ban:on
+☞ Unban:on
+☞ Ban @Tag
+☞ Unban @Tag
+☞ Banlist
+☠¢σммαи∂ fσя ρяσтє¢тισи☠
+☞ Protect on/off
+☞ Qr on/off
+☞ Invite:on/off
+☞ Cancel on/off
+☞ Backup
+☠¢σммαи∂ fσя gяσυρ☠
+☞ Gn
+☞ Cancel
+☞ Group id
+☞ Group Cancel
+☞ Ginfo
+☠¢σммαи∂ fσя ℓιик☠
+☞ Link on/off
+☞ Gurl
+☠¢σммαи∂ fσя ¢σρу☠
+☞ Copy @tag
+☞ Ccopy @taG
+☞ Kembali
+☠¢σммαи∂ fσя αυтσ☠
+☞ Auto Join on/off
+☞ Auto leave on/off
+☠¢σммαи∂ итв ѕєℓfвσт☠
+☞ Bot all
+☞ Bot key
+☞ Bot1-7 in
+☞ Bot1-7 bye
+☞ Respons
+☞ Bye all
+¢яєαтσя line.me/ti/p~ebisuindo
+αкυи σffι¢ιαℓ line.me/ti/p/~@enr7503k
 """
 helo=""
 
@@ -133,7 +123,7 @@ ki5mid = ki5.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki6mid = ki6.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid]
-admsa = "u2c7f708769a2eb35d9ae9f73cd366e0b"
+admsa = "uc77fd25b59f6e563d84f1334f3fed10b"
 
 wait = {
     'contact':False,
@@ -143,7 +133,7 @@ wait = {
     'timeline':False,
     'autoAdd':True,
     'message':"""THX FOR ADD : 
-🐺 hhttp://line.me/ti/p/~0647706747
+🐺 hhttp://line.me/ti/p/~@enr7503k
 """,
     "lang":"JP",
     "comment":"Thanks For Add Me",
@@ -152,7 +142,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"しりちゃん追加保護ボット25",
+    "cName":"冊尺 义",
     "cNames":"",
     "blacklist":{},
     "wblacklist":False,
@@ -233,7 +223,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u2c7f708769a2eb35d9ae9f73cd366e0b":
+                if msg.from_ == "uc77fd25b59f6e563d84f1334f3fed10b":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
